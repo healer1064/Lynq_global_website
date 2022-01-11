@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import data from './data'
 import SingleQuestion from './question'
-import { Row, Collapsible,CollapsibleItem, Icon } from 'react-materialize';
 import './accordianGroup.css';
 
 

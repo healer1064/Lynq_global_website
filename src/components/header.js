@@ -1,7 +1,5 @@
 import './header.css';
 
-import {Row, Col, Button} from 'react-materialize'
-
 function Header() {
   return (
     <div className="Header">

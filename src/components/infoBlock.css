@@ -1,0 +1,67 @@
+.InfoBlock {
+    background: #101011;
+    display: flex;
+    color: white;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+.InfoBlock_Wrapper {
+    position: relative;
+    top: -40px;
+}
+.InfoBlock_Wrapper .row {
+    margin-bottom: 0px;
+}
+.Round_Avatar {
+    border: solid #191919 4px;
+    border-radius: 30%;
+    height: 81px;
+    width: 81px;
+}
+.Name_Label {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0px;
+}
+.Badge_Row {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+.Badge {
+    background: #393B3F;
+    border-radius: 3px;
+    color: gray;
+    font-size: 11px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 13px;
+    padding: 0px 4px;
+}
+.Content_Row {
+    color: #BEC2C9;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0px!important;
+}
+.Link_Row {
+    color: #BEC2C9;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+}
+.Blue_Text {
+    color: #4CC9F0;
+}
+.Svg_Img {
+    width: 24px;
+    height: 24px;
+    margin: 6px;
+}

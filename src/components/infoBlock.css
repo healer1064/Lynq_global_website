@@ -1,7 +1,7 @@
 .InfoBlock {
     background: #101011;
-    display: flex;
     color: white;
+    display: flex;
     justify-content: center;
     position: relative;
     text-align: center;

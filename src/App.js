@@ -1,10 +1,10 @@
 import './App.css';
-import Home from './pages/home';
-import Exclusive from './pages/exclusive';
-import SignUp from './pages/signUp'
-import SignIn from './pages/signIn'
-import ForgotPassword from './pages/forgotPassword'
-import Confirmation from './pages/confirmation'
+import Home from './pages/home/home';
+import Exclusive from './pages/exclusive/exclusive';
+import Confirmation from './pages/exclusive/confirmation'
+import SignUp from './pages/auth/signUp'
+import SignIn from './pages/auth/signIn'
+import ForgotPassword from './pages/auth/forgotPassword'
 import {
   BrowserRouter,
   Routes,

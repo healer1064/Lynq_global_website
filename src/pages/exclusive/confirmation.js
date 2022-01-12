@@ -1,5 +1,5 @@
-import ConfirmationHeader from '../components/exclusive/confirmationHeader.js';
-import ConfirmationContent from '../components/exclusive/confirmationContent.js';
+import ConfirmationHeader from '../../components/exclusive/confirmationHeader.js';
+import ConfirmationContent from '../../components/exclusive/confirmationContent.js';
 
 import './confirmation.css';
 

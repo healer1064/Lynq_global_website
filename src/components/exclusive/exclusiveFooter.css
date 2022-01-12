@@ -1,0 +1,28 @@
+.exclusive-footer {
+    align-items: center;
+    background: #101011;
+    border-top: solid #393B3F 1px;
+    bottom: 0px;
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 75%);
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+.footer-btn {
+    align-items: center;
+    background: #393B3F;
+    border-radius: 50px;
+    border:none;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    font-weight: 600;
+    font-size: 16px;
+    height: 55px;
+    justify-content: center;
+    line-height: 19px;
+    text-align: center;
+    width: 345px;
+}

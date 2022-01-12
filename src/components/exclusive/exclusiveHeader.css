@@ -1,0 +1,20 @@
+
+.exclusive-header {
+    background: #101011;
+    height: 175px;
+}
+.exclusive-avatar {
+    border-radius: 15px;
+    height: 63px;
+    margin: 49.5px 0 8px;
+    width: 63px;
+}
+.exclusive-title {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 27px;
+    text-align: center; 
+}

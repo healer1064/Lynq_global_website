@@ -373,6 +373,9 @@ p {
 .exclusive-summary span:last-child {
     padding-right: 0;
 }
+.exclusive-item {
+    cursor: pointer;
+}
 .exclusive-item, .exclusive-item img:first-child {
     width: 100%;
 }

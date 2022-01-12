@@ -1,0 +1,25 @@
+.facebook-signin {
+    align-items: center;
+    border: 1px solid #393B3F;
+    border-radius: 100px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    font-weight: 600;
+    font-size: 15px;
+    height: 44px;
+    justify-content: center;
+    line-height: 18px;
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    width: 345px;
+}
+.facebook-icon {
+    height: 18px;
+    left: 16.5px;
+    position: absolute;
+    top: 13px;
+    width: 18px;
+}

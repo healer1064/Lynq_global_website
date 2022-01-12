@@ -3,7 +3,7 @@ import './signInWithGoogle.css';
 function SignInWithGoogle() {
     return (
         <div className="google-signin">
-            <img alt="" src="google-logo.svg" className="google-icon"/>
+            <img alt="" src="assets/svg/google-logo.svg" className="google-icon"/>
             Continue with Google
         </div>
     );

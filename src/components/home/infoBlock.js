@@ -10,7 +10,7 @@ function InfoBlock() {
                     <Row>
                         <img
                             alt=""
-                            src="avatar.svg"
+                            src="assets/svg/avatar.svg"
                             className="Round_Avatar"
                         />
                     </Row>
@@ -36,17 +36,17 @@ function InfoBlock() {
                     <Row>
                         <img
                             alt=""
-                            src="facebook.svg"
+                            src="assets/svg/facebook.svg"
                             className="Svg_Img"
                         />
                         <img
                             alt=""
-                            src="instagram.svg"
+                            src="assets/svg/instagram.svg"
                             className="Svg_Img"
                         />
                         <img
                             alt=""
-                            src="twitter.svg"
+                            src="assets/svg/twitter.svg"
                             className="Svg_Img"
                         />
                     </Row>

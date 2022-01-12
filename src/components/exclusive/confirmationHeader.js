@@ -5,7 +5,7 @@ function confirmationHeader() {
     <div className="confirmation-header">
         <img
             alt=""
-            src="avatar.svg"
+            src="assets/svg/avatar.svg"
             className="confirmation-avatar"
         />
     </div>

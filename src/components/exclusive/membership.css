@@ -1,0 +1,64 @@
+.membership {
+
+}
+.membership-title {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 24px;
+    text-align: center;
+}
+.membership-content {
+    display: flex;
+    margin: 24px 0;
+    justify-content: center;
+}
+.membership-block {
+    border-radius: 5px;
+    border: 2px solid #4CC9F0;
+    color: #4CC9F0;
+    cursor: pointer;
+    height: 81px;
+    margin: 6px;
+    padding: 10px 0px;
+    width: 108px;
+}
+.price {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0px 0;
+}
+.per {
+    font-size: 12px;
+    line-height: 15px;
+    margin: 2px 0px 0;
+}
+.save {
+    align-items: center;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    position: relative;
+}
+.save-div {
+    background: #FBFF12;
+    border-radius: 3px;
+    height: 17px;
+    margin: 6px 22px;
+    opacity: 0.1;
+    position: absolute;
+    width: 60px;
+}
+.save-span {
+    color: #FBFF12;
+    font-size: 10px;
+    line-height: 12px;
+}
+.cancel {
+    color: #999CA0;
+    font-size: 12px;
+    line-height: 12px;
+}

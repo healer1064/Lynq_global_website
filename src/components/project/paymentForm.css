@@ -1,0 +1,79 @@
+.pp-form-container {
+    width: 100%;
+}
+.pp-form {
+    padding: 24px 0 107px;
+    text-align: left;
+}
+.pp-form, 
+.pp-footer {
+    width: 345px;
+    margin: 0 auto;
+}
+.pp-form .pp-upload {
+    height: 200px;
+    margin-bottom: 24px;
+}
+.pp-form .pp-upload .pp-picture {
+    height: 100%;
+    width: 100%;
+}
+.pp-form .pp-upload .pp-upload-picture {
+    display: none;
+}
+.pp-form .pp-title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 0 16px;
+}
+.pp-form .pp-description {
+    margin-bottom: 20px;
+}
+.pp-form .input-field {
+    position: relative;
+}
+.pp-form .input-payment input{
+    padding-left: 37px;
+}
+.pp-form .input-payment span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    height: 51px;
+    line-height: 53px;
+    padding-left: 16px;
+    width: 40px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+
+    color: #999CA0;
+}
+.pp-form .input-field input, 
+.pp-form .input-field input[type="email"] {
+    background: #393B3F;
+    border: 1px solid #393B3F;
+    border-bottom: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #999CA0;
+    font-size: 16px;
+    height: 51px;
+    line-height: 19px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 343px;
+}
+.pp-footer-container {
+    height: 99px;
+}
+.pp-continue {
+    margin-top: 21px;
+    padding: 18px 0;
+    width: 100%;
+}

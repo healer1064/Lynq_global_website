@@ -1,0 +1,29 @@
+.exc-payment-select {
+    display: flex;
+    justify-content: center;
+}
+.exc-payment-select .exc-container {
+    width: 345px;
+}
+.exc-payment-select .title {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 24px;
+    text-align: left;
+}
+.exc-payment-select .choose-price {
+    color: #999CA0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
+.exc-payment-select .choose-price span {
+    color: #FFFFFF;
+}

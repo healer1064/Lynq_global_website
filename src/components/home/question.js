@@ -14,7 +14,7 @@ const Question = ({ id, title }) => {
             {id===1 ? (
                 <img
                     alt=""
-                    src="myproject.svg"
+                    src="/assets/svg/myproject.svg"
                     className="menu-img"
                 />
             ): <div className="header-blank"/>}
@@ -26,11 +26,11 @@ const Question = ({ id, title }) => {
                     expanded ? 
                         <img
                             alt=""
-                            src="minus.svg"
+                            src="/assets/svg/minus.svg"
                         /> : 
                         <img
                             alt=""
-                            src="plus.svg"
+                            src="/assets/svg/plus.svg"
                         />
                 }
             </button>

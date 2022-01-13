@@ -1,0 +1,17 @@
+.pp-header {
+    height: 175px;
+    padding-top: 50px;
+}
+.pp-header img {
+    width: 63px;
+    height: 63px;
+}
+.pp-header .pp-label {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin: 11px 0 0;
+}

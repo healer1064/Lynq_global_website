@@ -9,7 +9,7 @@ const AccordianGroup = () => {
   
     return (
         <div className="AccordianGroup">
-            <div className="Container">
+            <div className="custom-container">
                 <div className="AccordianGroup_Wrapper">
                     <section className='info'>
                         {questions.map((question) => (

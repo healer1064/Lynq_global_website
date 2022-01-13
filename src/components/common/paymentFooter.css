@@ -1,4 +1,4 @@
-.exclusive-footer {
+.payment-footer {
     align-items: center;
     background: #101011;
     border-top: solid #393B3F 1px;
@@ -10,9 +10,9 @@
     position: absolute;
     width: 100%;
 }
-.exclusive-footer .footer-btn {
+.payment-footer .footer-btn {
     align-items: center;
-    background: #393B3F;
+    background: #4CC9F0;
     border-radius: 50px;
     border:none;
     color: black;

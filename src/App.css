@@ -1,9 +1,97 @@
+/* :root {
+  --best-primary: #101011;;
+  --better-primary: #1A1B1C;
+  --normal-primary: #393B3F;
+  --weaker-primary: #999CA0;
+  --weakest-primary: #BEC2C9;
+} */
+
+body {
+    background: var(--clr-purple);
+    color: var(--clr-grey-1);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.theme-black {
+  color: #FFFFFF;;
+}
+
+.theme-black-header-background,
+.theme-black-footer-background {
+  background: #101011;
+}
+
+.theme-black-background {
+  background: #1A1B1C;
+}
+
+.theme-black-information {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #999CA0;
+}
+
+.theme-black-description {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color:#FFF;
+}
+
+.theme-black-link-green {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4CC9F0;
+}
+
+.theme-black-link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.theme-black-button {
+  background: #4CC9F0;
+  border-radius: 100px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+
+.padding-top-12 {
+  padding-top: 12px;
+}
+
+.section {
+    margin: 0 auto;
+    max-width: var(--max-width);
+    width: 90vw;
+}
+
 .App {
   background: #101011;;
   height: 100vh;
   text-align: center;
 }
 
-.Container {
+.custom-container {
   width: 640px;
+}
+
+@media screen and (min-width: 992px) {
+  .section {
+      width: 95vw;
+  }
 }

@@ -1,5 +1,5 @@
-import AuthHeader from '../components/auth/authHeader.js';
-import ForgotPasswordFooter from '../components/auth/forgotPasswordFooter.js';
+import AuthHeader from '../../components/auth/authHeader.js';
+import ForgotPasswordFooter from '../../components/auth/forgotPasswordFooter.js';
 
 import './forgotPassword.css';
 

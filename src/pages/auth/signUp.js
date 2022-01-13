@@ -1,7 +1,7 @@
-import AuthHeader from '../components/auth/authHeader.js';
-import SignUpFooter from '../components/auth/signUpFooter.js';
-import SignUpWithGoogle from '../components/auth/signUpWithGoogle.js';
-import SignUpWithFacebook from '../components/auth/signUpWithFacebook.js';
+import AuthHeader from '../../components/auth/authHeader.js';
+import SignUpFooter from '../../components/auth/signUpFooter.js';
+import SignUpWithGoogle from '../../components/auth/signUpWithGoogle.js';
+import SignUpWithFacebook from '../../components/auth/signUpWithFacebook.js';
 
 import './signUp.css';
 

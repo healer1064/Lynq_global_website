@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import AuthHeader from '../components/auth/authHeader.js';
-import SignInFooter from '../components/auth/signInFooter.js';
-import SignInWithGoogle from '../components/auth/signInWithGoogle.js';
-import SignInWithFacebook from '../components/auth/signInWithFacebook.js';
+import AuthHeader from '../../components/auth/authHeader.js';
+import SignInFooter from '../../components/auth/signInFooter.js';
+import SignInWithGoogle from '../../components/auth/signInWithGoogle.js';
+import SignInWithFacebook from '../../components/auth/signInWithFacebook.js';
 
 import './signIn.css';
 

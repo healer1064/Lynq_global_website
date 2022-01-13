@@ -1,0 +1,13 @@
+.backButton {
+    display: flex;
+    width: 50px;
+    background: none;
+}
+
+.back-label {
+    color: #999CA0;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 0px;
+    padding-left: 5px;
+}

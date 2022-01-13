@@ -1,9 +1,9 @@
 import ConfirmationHeader from '../../components/exclusive/confirmationHeader.js';
 import ConfirmationContent from '../../components/exclusive/confirmationContent.js';
 
-import './confirmation.css';
+import './exclusiveConfirmation.css';
 
-function confirmation() {
+function Confirmation() {
   return (
     <div className="confirmation">
         <ConfirmationHeader />
@@ -12,4 +12,4 @@ function confirmation() {
   );
 }
 
-export default confirmation;
+export default Confirmation;

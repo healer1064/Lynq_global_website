@@ -4,13 +4,13 @@ import './infoBlock.css';
 function InfoBlock() {
   return (
     <div className="InfoBlock">
-        <div className="Container">
+        <div className="custom-container">
             <div className="InfoBlock_Wrapper">
                 <div >
                     <Row>
                         <img
                             alt=""
-                            src="assets/svg/avatar.svg"
+                            src="/assets/svg/avatar.svg"
                             className="Round_Avatar"
                         />
                     </Row>
@@ -36,17 +36,17 @@ function InfoBlock() {
                     <Row>
                         <img
                             alt=""
-                            src="assets/svg/facebook.svg"
+                            src="/assets/svg/facebook.svg"
                             className="Svg_Img"
                         />
                         <img
                             alt=""
-                            src="assets/svg/instagram.svg"
+                            src="/assets/svg/instagram.svg"
                             className="Svg_Img"
                         />
                         <img
                             alt=""
-                            src="assets/svg/twitter.svg"
+                            src="/assets/svg/twitter.svg"
                             className="Svg_Img"
                         />
                     </Row>

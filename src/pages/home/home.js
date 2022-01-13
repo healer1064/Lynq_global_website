@@ -1,6 +1,6 @@
-import Header from '../../components/common/header.js';
-import InfoBlock from '../../components/home/infoBlock.js';
-import AccordianGroup from '../../components/home/accordianGroup.js';
+import Header from '../../components/common/header';
+import InfoBlock from '../../components/home/infoBlock';
+import AccordianGroup from '../../components/home/accordianGroup';
 import './home.css';
 
 function Home() {

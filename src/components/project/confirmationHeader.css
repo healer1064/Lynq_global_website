@@ -1,0 +1,11 @@
+.confirmation-header {
+    background: #101011;
+    height: 175px;
+}
+
+.confirmation-avatar {
+    border-radius: 15px;
+    height: 90px;
+    margin: 125px 0 0;
+    width: 90px;
+}

@@ -1,9 +1,9 @@
 import ExclusiveHeader from '../../components/exclusive/exclusiveHeader.js';
 import Membership from '../../components/exclusive/membership.js';
 import ExclusiveFooter from '../../components/exclusive/exclusiveFooter.js';
-import './exclusive.css';
+import './exclusiveMembership.css';
 
-function Exclusive() {
+function ExclusiveMembership() {
   return (
     <div className="Exclusive">
         <ExclusiveHeader/>
@@ -13,4 +13,4 @@ function Exclusive() {
   );
 }
 
-export default Exclusive;
+export default ExclusiveMembership;

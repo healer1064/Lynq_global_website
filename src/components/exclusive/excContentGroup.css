@@ -1,0 +1,36 @@
+.exc-content-group {
+    background: #101011;
+    border-top: solid 1px #242526;
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    position: relative;
+}
+.exc-content-group .content-container {
+
+}
+.exc-content-group .content-title {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+.exc-content-group .exclusive-summary {
+    align-items: center;
+    color: #989b9f;
+    display: flex;
+    font-size: 1em;
+    justify-content: center;
+    margin-top: -1em;
+    margin-bottom: 0.8em;
+}
+.exc-content-group .content-description {
+    color: #BEC2C9;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}

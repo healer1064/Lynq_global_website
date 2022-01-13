@@ -5,7 +5,7 @@ function ExclusiveHeader() {
     <div className="exclusive-header">
         <img
             alt=""
-            src="assets/svg/avatar.svg"
+            src="/assets/svg/avatar.svg"
             className="exclusive-avatar"
         />
         <p className="exclusive-title">Ben Burns</p>

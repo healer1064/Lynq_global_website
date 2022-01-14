@@ -5,9 +5,10 @@
     justify-content: center;
     padding-top: 24px;
     position: relative;
+    top: -25px;
 }
 .exc-content-group .content-container {
-
+    width: 528px;
 }
 .exc-content-group .content-title {
     color: #FFFFFF;
@@ -32,5 +33,9 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
+    margin-bottom: 35px;
     text-align: center;
+}
+.exc-content-group .content-wrapper {
+    margin-bottom: 100px;
 }

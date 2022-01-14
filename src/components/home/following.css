@@ -1,0 +1,85 @@
+.following-dialog {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+.following-background {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #101011;
+    opacity: 0.85;
+}
+.following-dialog-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 345px;
+    height: 177px;
+    padding: 21px;
+
+}
+.following-dialog .dialog-description {
+    margin: 27px 0 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+.following-dialog .dialog-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.following-dialog .following-btn {
+    
+    background: #4CC9F0;
+    border-radius: 100px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #000000;
+    padding: 11px 13px;
+    width: 146px;
+}
+.following-dialog .following-cancel {
+    border: 1.5px solid #999CA0;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #999CA0;
+    padding: 11px 13px;
+    width: 146px;
+}
+.following-dialog .following-cancel:focus {
+    background: #4CC9F0;
+    color: #000000;
+}
+.following-dialog .dialog-close {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}

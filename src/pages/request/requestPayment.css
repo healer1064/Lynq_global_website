@@ -1,0 +1,119 @@
+.rp-header {
+    height: 214px;
+    padding-top: 50px;
+}
+.rp-header img {
+    width: 63px;
+    height: 63px;
+}
+.rp-header .rp-label {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin: 11px 0 0;
+}
+.rp-header-description {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 24px 0;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #393B3F;
+}
+.rp-header-description span {
+    padding-left: 12px;
+}
+.rp-header-description span:first-child {
+    padding-left: 0;
+}
+.rp-header-description span:last-child {
+    color: #BEC2C9;
+}
+.rp-form-container {
+    width: 100%;
+}
+.rp-form {
+    padding: 24px 0 107px;
+    text-align: left;
+}
+.rp-form, 
+.rp-footer {
+    width: 345px;
+    margin: 0 auto;
+}
+.rp-form .rp-upload {
+    height: 200px;
+    margin-bottom: 24px;
+}
+.rp-form .rp-upload .rp-picture {
+    height: 100%;
+    width: 100%;
+}
+.rp-form .rp-upload .rp-upload-picture {
+    display: none;
+}
+.rp-form .rp-title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 0 16px;
+}
+.rp-form .rp-description {
+    margin-bottom: 20px;
+}
+.rp-form .input-field {
+    position: relative;
+}
+.rp-form .input-payment span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    height: 51px;
+    line-height: 53px;
+    padding-left: 16px;
+    width: 40px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+
+    color: #999CA0;
+}
+.rp-form .input-field input, 
+.rp-form .input-field input[type="email"] {
+    background: #393B3F;
+    border: 1px solid #393B3F;
+    border-bottom: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #999CA0;
+    font-size: 16px;
+    height: 51px;
+    line-height: 19px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 343px;
+}
+.rp-form .input-field.input-payment input{
+    padding-left: 37px;
+}
+.rp-footer-container {
+    height: 99px;
+}
+.rp-continue {
+    cursor: pointer;
+    margin-top: 21px;
+    padding: 18px 0;
+    width: 100%;
+}

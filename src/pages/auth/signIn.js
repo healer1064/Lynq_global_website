@@ -26,13 +26,13 @@ function SignIn() {
             </div>
         </div>
         <button className="signin-continue">Sign In</button>
-        <div className="divider-div">
+        {/* <div className="divider-div">
           <div className="line-div"></div>
           <p className="line-p">or</p>
           <div className="line-div"></div>
         </div>
         <SignInWithGoogle />
-        <SignInWithFacebook />
+        <SignInWithFacebook /> */}
       </div>
       <SignInFooter/>
     </div>

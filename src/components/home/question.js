@@ -10,7 +10,7 @@ const Question = ({ id, title }) => {
 
   return (
     <article className='question'>
-        <header className='question-header' onClick={() => setExpanded(!expanded)}>
+        <header className={ expanded ? 'active-header question-header' : 'question-header'} onClick={() => setExpanded(!expanded)}>
             {id===1 ? (
                 <img
                     alt=""

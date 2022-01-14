@@ -1,4 +1,4 @@
-import './payment.css';
+import './confirmation.css';
 import ConfirmationHeader from '../../components/project/confirmationHeader.js';
 import ConfirmationContent from '../../components/project/confirmationContent.js';
 

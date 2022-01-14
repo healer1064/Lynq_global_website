@@ -11,13 +11,13 @@ function SignUp() {
       <AuthHeader/>
       <div className="signup-content">
         <label className="title">Sign Up</label>
-        <SignUpWithGoogle />
-        <SignUpWithFacebook />
-        <div className="divider-div">
+        {/* <SignUpWithGoogle />
+        <SignUpWithFacebook /> */}
+        {/* <div className="divider-div">
           <div className="line-div"></div>
           <p className="line-p">or</p>
           <div className="line-div"></div>
-        </div>
+        </div> */}
         <div className="signup-form">
           <label htmlFor="input_name">First Name</label>
           <div className="input-field">

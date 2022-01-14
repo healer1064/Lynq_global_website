@@ -1,0 +1,37 @@
+.call-book {
+  text-align: center;
+  background: #1A1B1C;
+}
+
+.call-book .call-description-wrapper {
+  border-top: solid 1px #242526;
+  padding-top: 23px;
+}
+
+.call-book .call-description {
+  text-align: left;
+  width: 594px;
+}
+
+.call-book .one-to-one {
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.call-book .description-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 24px 0 12px;
+}
+
+.call-book .description-content {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.call-book .book-type-wrapper {
+  display: flex;
+  margin: 24px 0;
+}

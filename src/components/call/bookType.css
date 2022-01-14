@@ -1,0 +1,42 @@
+.book-type {
+    height: 279px;
+    margin: 10px;
+    padding: 24px;
+    position: relative;
+    text-align: left;
+    width: 327px;
+}
+
+.book-type .type-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.book-type .description-wrapper {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.book-type .type-description {
+    margin-top: 16px;
+}
+
+.book-type .type-detail {
+    margin-left: 10px;
+}
+
+.book-type .book-btn {
+    align-items: center;
+    border-radius: 30px;
+    bottom: 24px;
+    display: flex;
+    font-weight: 600;
+    font-size: 15px;
+    height: 44px;
+    justify-content: center;
+    line-height: 18px;
+    position: absolute;
+    text-align: center;
+    width: 278px;
+}

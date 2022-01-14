@@ -1,0 +1,59 @@
+.call-footer {
+    align-items: center;
+    background: #101011;
+    border-top: solid #393B3F 1px;
+    bottom: 0px;
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 75%);
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    position: relative;
+}
+
+.call-footer .call-btn-group {
+    display: flex;
+    position: absolute;
+    right: 20%;
+}
+
+.call-footer .time-btn {
+    border: solid 2px #4CC9F0;
+    border-radius: 5px;
+    height: 55px;
+    margin: 0px 4px;
+    width: 110px;
+    color: #4CC9F0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    background: #101011;
+    cursor: pointer;
+}
+
+.call-footer .time-btn:active {
+    color: black;
+    background: #4CC9F0;
+}
+
+.call-footer .book-now-btn:active {
+    background: #4CC9F0;
+}
+
+.call-footer .book-now-btn {
+    align-items: center;
+    background: #393B3F;
+    border-radius: 50px;
+    border:none;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    font-weight: 600;
+    font-size: 16px;
+    height: 55px;
+    justify-content: center;
+    line-height: 19px;
+    text-align: center;
+    width: 283px;
+    margin-left: 20px;
+}

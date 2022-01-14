@@ -1,5 +1,39 @@
 import { useNavigate  } from "react-router-dom";
+import {loadStripe} from '@stripe/stripe-js';
+import {
+    CardElement,
+    Elements,
+    useStripe,
+    useElements,
+} from '@stripe/react-stripe-js';
+
 import './paymentForm.css';
+import '../common/payment.css';
+
+const CheckoutForm = () => {
+  const stripe = useStripe();
+  const elements = useElements();
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    if (elements == null) {
+      return;
+    }
+
+    const {error, paymentMethod} = await stripe.createPaymentMethod({
+      type: 'card',
+      card: elements.getElement(CardElement),
+    });
+  };
+  return (
+    // <form onSubmit={handleSubmit}>
+    <CardElement />
+  );
+};
+
+const stripePromise = loadStripe('pk_test_6pRNASCoBOKtIshFeQd4XMUh');
+
 
 function PaymentForm() {
     let navigate = useNavigate();
@@ -9,7 +43,7 @@ function PaymentForm() {
     }
 
     return (
-        <div className="pp-form-container theme-black-background">
+        <div className="pp-form-container theme-dark-gray-background">
             <div className="pp-form">
                 <div className="pp-upload">
                     <img className="pp-picture" src="/assets/img/payment-upload.jpg" />
@@ -45,7 +79,25 @@ function PaymentForm() {
                 </div>
                 <h6 className="pp-title padding-top-12 theme-black">Select Payment</h6>
                 <div className="pp-form-content">
-
+                    <div>
+                        <label className="stripe-label">
+                            <input name="payment" type="radio" checked="checked"/>
+                            <span></span>
+                            <Elements stripe={stripePromise}>
+                                <CheckoutForm />
+                            </Elements>
+                        </label>
+                    </div>
+                    <div>
+                        <label className="paypal-label">
+                            <input name="payment" type="radio"  />
+                            <span></span>
+                            <div className="paypal-div">
+                                <img src="/assets/svg/paypal.svg"/>
+                                <p>You'll be redirected to paypal.com</p>
+                            </div>
+                        </label>
+                    </div>
                 </div>
                 <div className="pp-agreement theme-black-information">
                     By pledging, you agree with Lynq

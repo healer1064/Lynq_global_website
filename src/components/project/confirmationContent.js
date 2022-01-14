@@ -2,7 +2,7 @@ import './confirmationContent.css';
 
 function ConfirmationContent() {
   return (
-    <div className="confirmation-content">
+    <div className="confirmation-content theme-dark-gray-background">
         <img className="confirmation-image" src='/assets/svg/tick-circle.svg' />
         <p className="confirmation-title">Congratulations</p>
         <p className="confirmation-description">

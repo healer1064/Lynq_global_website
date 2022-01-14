@@ -1,3 +1,4 @@
+import ExcContent from './excContent.js';
 import './excContentGroup.css';
 
 function ExcContentGroup() {
@@ -11,6 +12,11 @@ function ExcContentGroup() {
                 <img src="/assets/svg/refresh-icon.svg"/> <span>3 days</span>
             </div>
             <p className="content-description">Find resources to level up your design and creative skills. Learn how to get better clients and make more money</p>
+            <div className="content-wrapper">
+              <ExcContent/>
+              <ExcContent/>
+              <ExcContent/>
+            </div>
         </div>
     </div>
   );

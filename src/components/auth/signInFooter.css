@@ -1,6 +1,6 @@
 .signin-footer {
     background: #101011;
-    /* bottom: 0px; */
+    bottom: 0;
     display: flex;
     height: 150px;
     justify-content: center;

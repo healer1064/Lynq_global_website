@@ -17,7 +17,7 @@ const ExclusiveContent = () => {
     let navigate = useNavigate();
 
     function handleClick() {
-        navigate("/exclusive/membership");
+        navigate("/exclusive/content");
     }
     return (
         <div>
@@ -29,10 +29,10 @@ const ExclusiveContent = () => {
             <Row className='exclusive-item-wrapper'>
                 {
                     items.map((item, index) => (
-                        <Col s="4" key ={index}>
-                            <div class="exclusive-item" onClick={handleClick}>
+                        <Col s={4} key ={index}>
+                            <div className="exclusive-item" onClick={handleClick}>
                                 <img src={item} alt="img not found"/>
-                                <img src="/assets/svg/lock.svg" class="exclusive-item-lock" alt="lock svg not found"
+                                <img src="/assets/svg/lock.svg" className="exclusive-item-lock" alt="lock svg not found"
                                     style={{left: `${(index % 3) * 33.5 + 13.5 }%`, top: `${18 + Math.floor(index/3) * 31}%`}}
                                 />
                             </div>

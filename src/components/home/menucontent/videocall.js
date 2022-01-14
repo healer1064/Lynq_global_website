@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from "react-router-dom";
 
 const VideoCall = () => {
     return (
@@ -6,11 +7,11 @@ const VideoCall = () => {
             <div>
                 <p className="description">Select the length and book a 1:1 video call with me</p>
                 <div className='btn-group-min'>
-                    <button className='btn-min'>15 min</button>
-                    <button className='btn-min'>30 min</button>
-                    <button className='btn-min'>60 min</button>                
+                    <div className='btn-min'>15 min</div>
+                    <div className='btn-min'>30 min</div>
+                    <div className='btn-min'>60 min</div>                
                 </div>
-                <button className='btn-book'>Book Now</button>
+                <Link to="/call/book" className='btn-book'>Book Now</Link>
             </div>
         </div>
     );

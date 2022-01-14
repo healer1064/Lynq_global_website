@@ -2,8 +2,8 @@ import './membership.css';
 
 const price_data = [
         { id:0, price: "$30.00", per: "per month", save: ""},
-        { id:1, price: "$60.00", per: "for 3 months", save: "save %33"},
-        { id:2, price: "$144.00", per: "for 1 year", save: "save %60"}
+        { id:1, price: "$60.00", per: "for 3 months", save: "save 33%"},
+        { id:2, price: "$144.00", per: "for 1 year", save: "save 60%"}
       ];
 function Membership() {
   return (

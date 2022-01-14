@@ -1,0 +1,73 @@
+.confirmation-image {
+    margin: 65px 0 8px;
+}
+
+.confirmation-greeting {
+    color: #BEC2C9;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.confirmation-title {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.confirmation-description {
+    color: #BEC2C9;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.confirmation-description span {
+    color: white;
+}
+
+.confirmation-button {
+    align-items: center;
+    background: #4CC9F0;
+    border-radius: 200px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    font-size: 14px;
+    height: 35px;
+    justify-content: center;
+    margin: auto;
+    width: 236px;
+}
+
+.confirmation-booking-date {
+    align-items: center;
+    color: #4CC9F0;
+    border: 1px solid #4CC9F0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    display: flex;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    width: 345px;
+    height: 31px;
+    justify-content: center;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 auto 31px;
+}

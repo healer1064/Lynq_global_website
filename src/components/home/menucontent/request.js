@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const Request = () => {
     return (
@@ -8,7 +9,7 @@ const Request = () => {
             </div>
             <div className="left-pane">
                 <p> Get your personal video messages. See details by clicking on the button belows </p>
-                <button> Request Video Answer </button>
+                <Link to="/request/main"> Request Video Answer </Link>
             </div>
         </div>
     );

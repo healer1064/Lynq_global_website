@@ -47,7 +47,7 @@
     color: #BEC2C9;
     font-size: 14px;
     line-height: 20px;
-    margin: 10px 0px!important;
+    margin: 10px 0px 8px!important;
 }
 .Link_Row {
     color: #BEC2C9;
@@ -56,6 +56,7 @@
     font-style: normal;
     font-weight: normal;
     line-height: 18px;
+    margin-bottom: 10px!important;
 }
 .Blue_Text {
     color: #4CC9F0;

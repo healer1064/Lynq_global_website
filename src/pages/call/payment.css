@@ -1,0 +1,48 @@
+.pp-header {
+    height: 214px;
+    padding-top: 50px;
+}
+.pp-header img {
+    width: 63px;
+    height: 63px;
+}
+.pp-header .pp-label {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin: 11px 0 0;
+}
+
+.project-description {
+    margin-top: 15px;
+}
+
+.pp-header .theme-black-letter {
+    color: #393B3F;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 25px;
+    line-height: 14px;
+}
+
+.pp-header .theme-black-white {
+    color: #BEC2C9;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 25px;
+    line-height: 14px;
+}
+
+.pp-header .theme-black-image {
+    height: 10.66px;
+    margin: 0 10px;
+    width: 15px;
+    transform: rotate(180deg)
+}

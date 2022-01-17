@@ -8,9 +8,9 @@ import data from './data'
 import './callBook.css';
 
 function CallBook() {
-  const minutes = ['15 min', '30 min', '60 min'];
-  const [minute, setMinute] = useState(1);
-  const [option, setOption] = useState(1);
+  const minutes = [ '15 min', '30 min', '60 min'];
+  const [minute, setMinute] = useState(0);
+  const [option, setOption] = useState(0);
   const buttonText = `Book ${minutes[minute]} for ${data[option]['price']}`;
 
   return (

@@ -38,6 +38,9 @@
 .mobile-cc-label {
   display: none;
 }
+.mini-arrow {
+  display: none;
+}
 
 @media only screen and (max-width: 670px) {
   .Budge {
@@ -141,5 +144,27 @@
   }
   .call-confirmation .confirmation-title {
     margin-bottom: 46px;
+  }
+  .call-book .invisible {
+    display: none;
+  }
+  .call-footer .call-btn-group {
+    position: initial;
+  }
+  .call-footer .book-now-btn {
+    margin-left: 10px;
+  }
+  .mini-arrow {
+    height: 55px;
+    width: 55px;
+    border: solid 2px #4CC9F0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mini-arrow img {
+    width: 15px;
+    height: 20px;
   }
 }

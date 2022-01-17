@@ -1,3 +1,4 @@
+import React from 'react';
 import './following.css';
 
 function Following({setFollow, setShowFollowing}) {

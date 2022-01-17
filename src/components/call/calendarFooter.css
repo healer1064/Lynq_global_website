@@ -1,0 +1,45 @@
+.calendar-footer {
+    align-items: center;
+    background: #101011;
+    border-top: solid #393B3F 1px;
+    bottom: 0px;
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 75%);
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    position: relative;
+}
+
+.calendar-footer .calendar-result {
+    align-items: center;
+    display: flex;
+    /* width: 300px; */
+}
+.calendar-footer .calendar-result img {
+    padding-left: 24px;
+}
+.calendar-footer .calendar-result span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding-left: 8px;
+}
+
+.calendar-footer .book-now-btn {
+    align-items: center;
+    background: #4CC9F0;
+    border-radius: 100px;
+    border:none;
+    color: #1A1B1C;
+    cursor: pointer;
+    display: flex;
+    font-weight: 600;
+    font-size: 16px;
+    height: 55px;
+    justify-content: center;
+    line-height: 19px;
+    text-align: center;
+    width: 283px;
+    margin-left: 20px;
+}

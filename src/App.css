@@ -14,7 +14,7 @@ body {
 }
 
 .App {
-  background: #101011;;
+  background: #1A1B1C;;
   height: 100vh;
   text-align: center;
 }
@@ -87,6 +87,9 @@ body {
   color: #000000;
 }
 
+.theme-black-avatar-border {
+  border-color: #191919;
+}
 .padding-top-12 {
   padding-top: 12px;
 }
@@ -111,5 +114,21 @@ body {
 @media screen and (min-width: 992px) {
   .section {
       width: 95vw;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .custom-container {
+    width: 345px;
+  }
+  .content-container {
+    width: 345px!important;
+  }
+  .follow-dialog-content {
+    width: 345px!important;
+  }
+  .follow-dialog .dialog-description {
+    padding: 0px 35px!important;
+    margin-bottom: 10px!important;
   }
 }

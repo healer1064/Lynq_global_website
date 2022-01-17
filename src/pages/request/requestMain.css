@@ -105,3 +105,88 @@
     flex-direction: column;
     align-items: flex-start;
 }
+.mobile-version {
+    display: none;
+}
+
+@media only screen and (max-width: 670px) {
+    .Budge {
+        font-size: 11px!important;
+        line-height: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 3px;
+    }
+    .request-main .request-description {
+        width: 345px;
+    }
+    .request-main .request-question-wrapper {
+        width: 345px;
+    }
+    .request-main .request-upload-wrapper {
+        width: 345px;
+    }
+    .request-main .dropzone-section img {
+        padding: 0 19px 0 0px;
+    }
+    .request-footer .request-btn {
+        width: 345px;
+    }
+    .desktop-version {
+        display: none;
+    }
+    .rp-header {
+        display: flex;
+        padding: 50px 10px 27px 0;
+        height: auto!important;
+    }
+    .rp-header img {
+        margin: 15px;
+    }
+    .mobile-version {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 24px 0;
+    }
+    .mobile-version p {
+        margin: 0;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #999CA0;
+    }
+    .rp-header .rp-label {
+        margin: 0;
+        text-align: left;
+    }
+    .request-confirmation .request-confirmation-header {
+        height: 125px;
+    }
+    .request-confirmation .request-confirmation-avatar {
+        margin-top: 75px;
+    }
+    .request-confirmation .request-confirmation-content {
+        padding: 0 15px;
+    }
+    .request-confirmation .request-confirmation-title {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .request-confirmation .request-confirmation-description {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .confirmation-content {
+        display: flex;
+        justify-content: center;
+    }
+    .confirmation-content .confirmation-title {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+    }
+}

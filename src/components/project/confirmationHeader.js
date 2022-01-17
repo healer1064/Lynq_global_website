@@ -1,12 +1,13 @@
+import React from 'react';
 import './confirmationHeader.css';
 
 function ConfirmationHeader() {
   return (
-    <div className="confirmation-header">
+    <div className="project-confirmation-header">
         <img
             alt=""
             src="/assets/svg/avatar.svg"
-            className="confirmation-avatar"
+            className="project-confirmation-avatar"
         />
     </div>
   );

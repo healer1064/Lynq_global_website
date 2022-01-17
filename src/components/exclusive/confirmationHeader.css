@@ -1,9 +1,9 @@
-.confirmation-header {
+.exclusive-confirmation-header {
     background: #101011;
     height: 175px;
 }
 
-.confirmation-avatar {
+.exclusive-confirmation-avatar {
     border-radius: 15px;
     height: 90px;
     margin: 125px 0 0;

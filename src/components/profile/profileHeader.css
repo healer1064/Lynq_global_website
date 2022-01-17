@@ -1,0 +1,36 @@
+
+.profile-header {
+    background: #101011;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-header .top-div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.profile-header .img-div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.profile-avatar {
+    background: #38383D;
+    border-radius: 15px;
+    height: 55px;
+    width: 55px;
+    border: solid 4px;
+}
+.profile-title {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    margin-left: 12px;
+    text-align: center; 
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+}

@@ -9,9 +9,9 @@ const MyProject = () => {
     }
 
     return (<div className="myproject">
-        <div className="left-pane">
+        {/* <div className="left-pane">
             <img alt="" src="/assets/svg/back-myproject.svg" />
-        </div>
+        </div> */}
         <div className="right-pane">
             <p className="description">Reinventing the Flipbook - A Fun Coloring Flipbook</p>
             <p className="price">$785 pledged of $1,000</p>

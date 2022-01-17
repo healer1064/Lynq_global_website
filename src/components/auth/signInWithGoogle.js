@@ -1,3 +1,4 @@
+import React from 'react';
 import './signInWithGoogle.css';
 
 function SignInWithGoogle() {

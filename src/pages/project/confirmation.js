@@ -1,3 +1,4 @@
+import React from 'react';
 import './confirmation.css';
 import ConfirmationHeader from '../../components/project/confirmationHeader.js';
 import ConfirmationContent from '../../components/project/confirmationContent.js';

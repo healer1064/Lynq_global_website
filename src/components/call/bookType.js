@@ -1,20 +1,18 @@
+import React from 'react';
 import './bookType.css';
 
-function BookType() {
+function BookType({info, option, setOption}) {
   return (
-    <div className="book-type theme-black-soft-gray theme-dark-gray-background">
-        <div className='type-title'> 15 minute session </div>
+    <div className={"book-type theme-black-soft-gray theme-dark-gray-background " + (option===info.id ? "book-type-focused" : "")}>
+        <div className='type-title'> {info.title} </div>
         <div className='type-description'>
-            <div className="description-wrapper">
-                <img src="/assets/svg/tick.svg"/>
-                <div className="type-detail">Clarify your message</div>
-            </div>
-            <div className="description-wrapper">
-                <img src="/assets/svg/tick.svg"/>
-                <div className="type-detail">Three(3) recommendations</div>
-            </div>
+            {info.options.map(each => (
+              <div className="description-wrapper" key={each}>
+                <img alt="tick" src="/assets/svg/tick.svg"/>
+                <div className="type-detail">{each}</div>
+            </div>))}
         </div>
-        <div className="book-btn theme-black-button">Book for $49</div>
+        <button className="book-btn theme-black-button" onClick={() => setOption(info.id)}>{info.button}</button>
     </div>
   );
 } 

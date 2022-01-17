@@ -1,3 +1,4 @@
+import React from 'react';
 import './follow.css';
 
 function Follow({setFollow, setShowFollow}) {
@@ -12,7 +13,7 @@ function Follow({setFollow, setShowFollow}) {
         <div className="follow-dialog">
             <div className="follow-background" />
             <div className="follow-dialog-content">
-                <img className="dialog-img" src="/assets/svg/avatar.svg" />
+                <img className="dialog-img" alt="avatar" src="/assets/svg/avatar.svg" />
                 <h6 className="dialog-title">Ben Burns</h6>
                 <p className="dialog-description">Follow me to get all of my most important updates</p>
                 <div className="dialog-form">

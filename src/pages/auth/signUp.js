@@ -1,3 +1,4 @@
+import React from 'react';
 import AuthHeader from '../../components/auth/authHeader.js';
 import SignUpFooter from '../../components/auth/signUpFooter.js';
 import SignUpWithGoogle from '../../components/auth/signUpWithGoogle.js';

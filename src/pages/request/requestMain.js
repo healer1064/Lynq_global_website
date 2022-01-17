@@ -1,8 +1,8 @@
+import React from 'react';
 import Header from '../../components/common/header.js';
 import BackButton from '../../components/common/backButton.js';
 import InfoBlock from '../../components/home/infoBlock.js';
 import RequestFooter from '../../components/request/requestFooter.js'
-import React from 'react'
 import Dropzone from 'react-dropzone'
 
 import './requestMain.css';
@@ -20,7 +20,16 @@ function RequestMain() {
             <div className="flex-container theme-dark-black-background request-description-wrapper">
                 <div className="request-description theme-black-soft-gray">
                     <div className="one-to-one">request video answer</div>
-                    <div className="description-title">Why requesting a video answer</div>
+                    <div className="description-title theme-black">Why requesting a video answer</div>
+                    <div className="description-content">
+                        If you're looking for tactical, actionable advice about growing a creative business, 
+                        finding more clients, and building scalable processes, Ben is a great fit.
+                        <br/>
+                        <br/>
+                        Enter your question below. Be as specific as possible to get the answer you’re looking for. 
+                        You will receive an answer within 48hs.
+                    </div>
+                    <div className="description-title theme-black">Video Request rules</div>
                     <div className="description-content">
                         If you're looking for tactical, actionable advice about growing a creative business, 
                         finding more clients, and building scalable processes, Ben is a great fit.

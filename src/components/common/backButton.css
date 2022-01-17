@@ -1,7 +1,9 @@
 .backButton {
-    display: flex;
-    width: 50px;
+    align-items: center;
     background: none;
+    display: flex;
+    justify-content: center;
+    width: 50px;
 }
 
 .back-label {

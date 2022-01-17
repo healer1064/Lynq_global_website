@@ -1,3 +1,4 @@
+import React from 'react';
 import './membership.css';
 
 const price_data = [
@@ -8,24 +9,26 @@ const price_data = [
 function Membership() {
   return (
     <div className="membership">
-      <p className="membership-title">Select your membership</p>
-      <div className="membership-content">
-        {
-          price_data.map((element) => (
-            <div className="membership-block" key={element.id}>
-              <p className="price">{element.price}</p>
-              <p className="per">{element.per}</p>
-              {element.save && 
-                <div className="save">
-                  <div className="save-div"></div>
-                  <span className="save-span">{element.save}</span>
-                </div>
-              }
-            </div>
-          ))
-        }
+      <div className="content-container">
+        <p className="membership-title">Select your membership</p>
+        <div className="membership-content">
+          {
+            price_data.map((element) => (
+              <div className="membership-block" key={element.id}>
+                <p className="price">{element.price}</p>
+                <p className="per">{element.per}</p>
+                {element.save && 
+                  <div className="save">
+                    <div className="save-div"></div>
+                    <span className="save-span">{element.save}</span>
+                  </div>
+                }
+              </div>
+            ))
+          }
+        </div>
+        <p className="cancel">Cancel anytime</p>
       </div>
-      <p className="cancel">Cancel anytime</p>
     </div>
   );
 }

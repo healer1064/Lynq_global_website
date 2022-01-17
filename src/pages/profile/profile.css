@@ -1,0 +1,342 @@
+.profile {
+    text-align: center;
+    background: #1A1B1C;
+}
+.profile .profile-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile .profile-detail-container {
+    width: 400px;
+}
+.profile-details .details-img-div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 35px;
+}
+.profile-details .edit-profile-avatar {
+    width: 80px;
+    background: #38383D;
+    border-radius: 20px;
+    border: solid 4px #101010;
+}
+.details-img-div button {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 9px 16px;
+    border-radius: 20px;
+    border: solid;
+    background: #1A1B1C;
+    margin: 10px;
+    color: #4CC9F0;
+}
+.profile-details .details-name-div {
+    display: flex;
+    flex-direction: column;
+}
+.profile-details .details-name-div {
+    color: #BEC2C9;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 17px;
+    margin-top: 24px;
+    text-align: left;
+}
+.profile-details .input-field {
+    margin: 4px 0 0;
+}
+.profile-details .input-field input {
+    background: #393B3F;
+    border: 1px solid #393B3F;
+    border-bottom: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #999CA0;
+    font-size: 16px;
+    height: 51px;
+    line-height: 19px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.profile-details .details-name-div button{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    width: 166px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    background: #393B3F;
+    cursor: pointer;
+}
+.profile-details .subscriptions-div {
+    margin: 32px 0;
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-details .subscription-title {
+    text-align: left;
+    width: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.profile-details .subscription-block {
+    width: 100%;
+    border: solid 1px #393B3F;
+    border-radius: 5px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.profile-details .subscription-block button {
+    width: 121px;
+    height: 30px;
+    border: 1px solid #393B3F;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #BEC2C9;
+    background: none;
+}
+.profile-details .subscription-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-details .subscription-detail label{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+    width: 100%;
+    text-align: left;
+}
+.profile-details .subscription-detail p{
+    margin: 0;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #999CA0;
+}
+.profile-details .billing-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.profile-details .billing-title {
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.profile-details .payment-method {
+    width: 100%;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #999CA0;
+}
+.profile-details .card-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.profile-details .card-owner {
+    width: 100%;
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.profile-details .hidden-card-number {
+    width: 100%;
+    text-align: left;
+    margin: 5px 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #999CA0;
+}
+.profile-details .card-info button {
+    width: 89px;
+    height: 30px;
+    border: 1px solid #393B3F;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #BEC2C9;
+    background: none;
+}
+.profile-details .payment-schedule-div {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-details .payment-schedule-div label{
+    width: 100%;
+    text-align: left;
+}
+.profile-details .payment-schedule-div .payment-schedule {
+    margin: 30px 0 15px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #999CA0;
+}
+.profile-details .payment-schedule-div .payment-date {
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.profile-details .payment-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.payment-form .card-number-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.payment-form .card-number-div label {
+    font-size: 14px;
+    line-height: 17px;
+    color: #BEC2C9;
+}
+.payment-form .StripeElement {
+    width: 100%;
+}
+.payment-form .other-pay-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+.other-pay-info .StripeElement {
+    margin-top: 4px;
+}
+.other-pay-info .expiration-div {
+    width: 128px;
+    text-align: left;
+}
+.other-pay-info .security-div {
+    width: 128px;
+    text-align: left;
+}
+.other-pay-info .zip-div {
+    width: 128px;
+    text-align: left;
+}
+.other-pay-info .zip-div input {
+    margin: 4px 0 0 0;
+    padding: 16px;
+    border: none;
+    box-shadow: none;
+    height: 51px;
+    background: #393B3F;
+    border: 1px solid #393B3F;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.payment-form .country-div {
+    width: 100%;
+    text-align: left;
+}
+.payment-form button {
+    padding: 9px 0px;
+    width: 166px;
+    background: #4CC9F0;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+    border: none;
+}
+.country-select {
+    margin: 5px 0 16px;
+}
+.country-select > div:focus-visible {
+    outline: none;
+}
+.country-select > div > div {
+    background: #393B3F;
+    border: 1px solid #393B3F;
+}
+.country-select > div > div:hover {
+    border: 1px solid #393B3F;
+}
+.country-select div[class$="ValueContainer"] {
+    padding: 0 16px;
+}
+.country-select div[class$="ValueContainer"] div[class$="Input"] {
+    color: #999CA0;
+}
+.country-select div[class$="-singleValue"] {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #999CA0;
+}
+.country-select span[class$="-indicatorSeparator"] {
+    display: none;
+}
+
+@media only screen and (max-width: 670px) {
+    .profile .profile-detail-container {
+        width: 345px;
+    }
+    .subscription-cancel-dialog {
+        width: 375px;
+    }
+    .subscription-confirm-dialog {
+        width: 375px;
+    }
+    .other-pay-info .expiration-div {
+        width: 109px;
+    }
+    .other-pay-info .security-div {
+        width: 109px;
+    }
+    .other-pay-info .zip-div {
+        width: 109px;
+    }
+}

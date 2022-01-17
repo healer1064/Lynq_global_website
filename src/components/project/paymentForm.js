@@ -1,3 +1,4 @@
+import React from 'react';
 import { useNavigate  } from "react-router-dom";
 import {loadStripe} from '@stripe/stripe-js';
 import {
@@ -102,7 +103,7 @@ function PaymentForm() {
                 <div className="pp-agreement theme-black-information">
                     By pledging, you agree with Lynq
                     <a href='#' className="theme-black-link"> Terms of Use</a>, 
-                    <a href='#' className="theme-black-link">Privacy Policy</a> and 
+                    <a href='#' className="theme-black-link">Privacy Policy</a> and &nbsp;
                     <a href='#' className="theme-black-link">Cookie Policy</a>
                 </div>
             </div>

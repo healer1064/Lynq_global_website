@@ -2,3 +2,112 @@
   text-align: center;
   background: #1A1B1C;
 }
+.mobile-version {
+  display: none;
+}
+
+@media only screen and (max-width: 670px) {
+  .exclusiveContent .back-btn-wrapper {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+  }
+  .exc-content-group .content-title {
+    text-align: initial;
+  }
+  .exc-content-group .exclusive-summary {
+    justify-content: flex-start;
+  }
+  .exc-content-group .content-description {
+    text-align: left;
+  }
+  .exclusive-content .content-image {
+    width: 100%;
+  }
+  .exclusive-content .image-inside {
+    width: 94%;
+  }
+  .exclusive-content .detail-wrapper .detail-description {
+    margin-bottom: 12px!important;
+    margin-top: 4px!important;
+  }
+  .desktop-version {
+    display: none;
+  }
+  .exclusive-header {
+    display: flex;
+    padding: 50px 10px 27px 0;
+    height: auto!important;
+  }
+  .exclusive-header img {
+    margin: 15px;
+  }
+  .mobile-version {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 24px 0;
+  }
+  .mobile-version p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #999CA0;
+  }
+  .exclusive-header .eh-label {
+    margin: 0;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .Exclusive .membership {
+    display: flex;
+    justify-content: center;
+  }
+  .membership .membership-title {
+    text-align: left;
+  }
+  .membership .membership-content {
+    margin: 36px 0;
+  }
+  .membership .membership-block {
+    margin: 0;
+  }
+  .membership-content .membership-block:nth-child(2) {
+    margin: 0 10px;
+  }
+  .exc-payment-select .teams-policy {
+    text-align: left;
+  }
+  .exclusive-confirmation-header {
+    height: 105px!important;
+  }
+  .exclusive-confirmation-avatar {
+    height: 60px!important;
+  }
+  .exclusive-confirmation .exclusive-confirmation-header {
+    height: 105px!important;
+  }
+  .exclusive-confirmation .exclusive-confirmation-avatar {
+    height: 90px!important;
+    margin-top: 55px;
+  }
+  .exclusive-confirmation .confirmation-content {
+    display: flex;
+    justify-content: center;
+  }
+  .exclusive-confirmation .confirmation-description {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .exclusive-confirmation .confirmation-button {
+    margin-top: 36px;
+  }
+}

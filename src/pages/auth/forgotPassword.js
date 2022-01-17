@@ -1,5 +1,7 @@
+import React from 'react';
 import AuthHeader from '../../components/auth/authHeader.js';
 import ForgotPasswordFooter from '../../components/auth/forgotPasswordFooter.js';
+import { Link } from "react-router-dom";
 
 import './forgotPassword.css';
 
@@ -18,7 +20,7 @@ function ForgotPassword() {
             <input id="input_email" placeholder="Enter your email"/>
           </div>
         </div>
-        <button className="forgotpassword-continue">Reset Password</button>
+        <Link className="forgotpassword-continue" to='/newpassword'>Reset Password</Link>
       </div>
       <ForgotPasswordFooter/>
     </div>

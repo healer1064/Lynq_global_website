@@ -1,3 +1,4 @@
+import React from 'react';
 import './excContent.css';
 
 function ExcContent() {

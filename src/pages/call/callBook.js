@@ -8,10 +8,10 @@ import data from './data'
 import './callBook.css';
 
 function CallBook() {
-  const minutes = [ '15 min', '30 min', '60 min'];
-  const [minute, setMinute] = useState(0);
-  const [option, setOption] = useState(0);
-  const buttonText = `Book ${minutes[minute]} for ${data[option]['price']}`;
+  const minutes = ['15 min', '30 min', '60 min'];
+  const [minute, setMinute] = useState(-1);
+  const [option, setOption] = useState(-1);
+  const buttonText = option !== -1 ? `Book ${minutes[minute]} for ${data[option]['price']}` : "Book Now!";
 
   return (
     <div className="call-book">
@@ -38,7 +38,7 @@ function CallBook() {
           {data.map(each => (<BookType info={each} key={each.id} option={option} setOption={setOption} />))}
         </div>
       </div>
-      <CallFooter minute={minute} minutes={minutes} buttonText={buttonText} setMinute={setMinute} />
+      <CallFooter minute={minute} minutes={minutes} buttonText={buttonText} setMinute={setMinute} option={option}/>
     </div>
   );
 }

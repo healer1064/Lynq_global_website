@@ -35,3 +35,111 @@
   display: flex;
   margin: 24px 0;
 }
+.mobile-cc-label {
+  display: none;
+}
+
+@media only screen and (max-width: 670px) {
+  .Budge {
+    font-size: 11px!important;
+    line-height: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3px;
+  }
+  .call-book .call-description {
+    width: 345px;
+  }
+  .call-book .book-type-wrapper {
+    width: 345px;
+    flex-direction: column;
+  }
+  .book-type {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .book-type .book-btn {
+    position: initial;
+  }
+  .desktop-version {
+    display: none;
+  }
+  .cc-header {
+    display: flex;
+    padding: 50px 10px 27px 0;
+    height: auto!important;
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+  .cc-header img {
+    margin: 15px;
+  }
+  .pp-header {
+    display: flex;
+    padding: 50px 10px 27px 0;
+    height: auto!important;
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+  .pp-header img {
+    margin: 15px;
+  }
+  .mobile-version {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 24px 0;
+  }
+  .mobile-version p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #999CA0;
+  }
+  .mobile-cc-label {
+    display: inline;
+    text-align: left;
+    margin-top: 0!important;
+    padding-left: 15px;
+  }
+  .header-wrap-div {
+    display: flex;
+  }
+  .calendar-footer {
+    flex-direction: column;
+    height: 115px!important;
+  }
+  .calendar-footer .calendar-result {
+    width: 345px;
+    padding: 5px 0 15px;
+  }
+  .calendar-footer .book-now-btn {
+    margin: 0!important;
+    width: 345px!important;
+  }
+  .mobile-version .cc-label {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin: 11px 0 0;
+  }
+  .call-confirmation-header {
+    height: 105px!important;
+  }
+  .call-confirmation-avatar {
+    margin-top: 60px!important;
+  }
+  .call-confirmation .confirmation-greeting {
+    margin-top: 0;
+  }
+  .call-confirmation .confirmation-title {
+    margin-bottom: 46px;
+  }
+}

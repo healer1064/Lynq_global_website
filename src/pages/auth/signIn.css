@@ -88,3 +88,10 @@
   text-align: center;
   width: 345px;
 }
+
+@media only screen and (max-width: 670px) {
+  .auth-header .cross-img {
+    right: 17.5px;
+    top: 22.5px;
+  }
+}

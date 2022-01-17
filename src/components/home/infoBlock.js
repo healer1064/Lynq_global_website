@@ -1,3 +1,4 @@
+import React from 'react';
 import { Row, Badge } from 'react-materialize';
 import './infoBlock.css';
 

@@ -2,3 +2,60 @@
   text-align: center;
   background: #1A1B1C;
 }
+
+@media only screen and (max-width: 670px) {
+  .Budge {
+      font-size: 11px!important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .question div.question-content {
+      padding: 42px 12px 20px;
+  }
+  .myproject .description {
+      text-align: left;
+  }
+  .myproject .price {
+      margin: 8px 0!important;
+  }
+  .call-panel .description {
+      text-align: start;
+  }
+  .call-panel .div {
+      width: 100%;
+  }
+  .exclusive-item {
+      position: relative;
+  }
+  .exclusive-item-lock {
+      left: 45px;
+      top: 39px;
+      width: 24px;
+      height: 32px;
+  }
+  .question-content {
+      overflow: auto;
+  }
+  .productItemContent {
+      display: flex;
+  }
+  .productItem .productMain {
+      width: 270px;
+  }
+  .productItem .productImg {
+      width: 250px;
+      height: 200px;
+  }
+  .productItem .productDetail {
+      width: 270px;
+      padding: 10px 10px 20px;
+      position: relative;
+  }
+  .productItem .productTitle {
+      width: 250px;
+  }
+  .call-pane > div {
+      width: auto!important;
+  }
+}

@@ -1,3 +1,4 @@
+import React from 'react';
 import ExclusiveHeader from '../../components/exclusive/exclusiveHeader.js';
 import Membership from '../../components/exclusive/membership.js';
 import ExclusiveFooter from '../../components/exclusive/exclusiveFooter.js';

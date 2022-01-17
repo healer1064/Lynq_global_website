@@ -88,7 +88,8 @@
 }
 .myproject{
     display: flex;
-    height: 150px;
+    /* height: 150px; */
+    justify-content: center;
 }
 .myproject .description {
     color: white;
@@ -102,16 +103,17 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 18px;
+    margin: 12px 0!important;
     text-align: left;
 }
 .myproject .right-pane {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 16px;
 }
 .myproject .right-pane > p {
     margin-bottom: 0px;
+    margin-top: 0;
 }
 .myproject .right-pane > div{
     align-items: center;
@@ -122,6 +124,7 @@
     height: 25px;
     justify-content: center;
     line-height: 15px;
+    margin-bottom: 16px;
     width: 122px;
 }
 .myproject .right-pane img {
@@ -140,15 +143,15 @@
     left: 186px;
     line-height: 18px;
     top: 180px;
-    width: 227px;
+    width: 100%;
 }
 .request {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 .request .left-pane {
-    margin-left: 16px;
+    width: 436px;
 }
 .request .left-pane p {
     color: white;
@@ -157,7 +160,8 @@
     font-style: normal;
     font-weight: 500;
     line-height: 22px;
-    text-align: left;
+    margin: 0 0 20px;
+    text-align: center;
 }
 .request .left-pane a {
     align-items: center;
@@ -243,9 +247,13 @@
     border-radius: 5px;
     box-sizing: border-box;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-    height: 330px;
     position: relative;
     width: 290px;
+    display: flex;
+    justify-content: center;
+}
+.productItem .productMain {
+    margin-bottom: 20px;
 }
 .productItem .productImg {
     border-radius: 5px;
@@ -266,9 +274,9 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 21px;
-    margin: 12px auto;
+    margin: 5px auto;
     width: 260px;
-    
+    height: 50px;
     justify-content: center;
     text-align: center;
 }
@@ -290,6 +298,7 @@
     justify-content: center;
     line-height: 17px;
     margin: auto;
+    margin-bottom: 0;
     padding: 9px 0px;
     width: 205px;
     text-align: center;
@@ -300,7 +309,9 @@
     left: 0;
     padding: 20px;
     width: 100%;
-
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     animation-name: showing;
     animation-duration: 1.5s;
 }
@@ -333,6 +344,7 @@
 }
 .exclusive-item {
     cursor: pointer;
+    position: relative;
 }
 .exclusive-item, .exclusive-item img:first-child {
     width: 100%;
@@ -349,6 +361,8 @@
 }
 .exclusive-item-lock {
     position: absolute;
+    top: 72px;
+    left: 83px;
 }
 
 @keyframes showing {

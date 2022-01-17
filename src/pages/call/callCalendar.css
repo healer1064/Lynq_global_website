@@ -1,0 +1,117 @@
+.call-calendar {
+    height: 100%;
+}
+.cc-header {
+    height: 214px;
+    padding-top: 50px;
+}
+.cc-header img {
+    width: 63px;
+    height: 63px;
+}
+.cc-header .cc-label {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin: 11px 0 0;
+}
+
+.cc-header .cc-description {
+    margin-top: 15px;
+}
+
+.cc-header .theme-black-letter {
+    color: #393B3F;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 25px;
+    line-height: 14px;
+}
+
+.cc-header .theme-black-white {
+    color: #BEC2C9;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 25px;
+    line-height: 14px;
+}
+
+.cc-header .theme-black-image {
+    height: 10.66px;
+    margin: 0 10px;
+    width: 15px;
+    transform: rotate(180deg)
+}
+.cc-main {
+    margin: 0 auto;
+    padding: 24px 0;
+    text-align: left;
+    width: 346px;
+}
+.cc-title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #BEC2C9;
+}
+.cc-subtitle {
+    margin: 20px 0 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.cc-select {
+    margin-top: 39px;
+}
+.cc-select .cc-select-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+}
+.cc-select .cc-select-header span {
+    padding-left: 8px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.cc-select .cc-select-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cc-select .cc-time {
+    cursor: pointer;
+    display: block;
+    background: #1E292D;
+    border-radius: 3px;
+    /* flex: 1 1 auto; */
+    height: 36px;
+    text-align: center;
+    width: 108px;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #4CC9F0;
+    margin-bottom: 11px;
+    padding: 8px;
+}
+.cc-select .cc-time.time-focused {
+    background: #4CC9F0;
+    color: #101011;
+}

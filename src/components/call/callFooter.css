@@ -31,7 +31,8 @@
     cursor: pointer;
 }
 
-.call-footer .time-btn:active {
+.call-footer .time-btn:active,
+.call-footer .time-btn.time-focused {
     color: black;
     background: #4CC9F0;
 }

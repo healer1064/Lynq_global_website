@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Home from './pages/home/home';
 import ProjectPayment from './pages/project/payment';
@@ -9,13 +10,15 @@ import ExclusiveContent from './pages/exclusive/exclusiveContent'
 import CallBook from './pages/call/callBook'
 import CallPayment from './pages/call/payment'
 import CallConfirmation from './pages/call/callConfirmation'
+import CallCalendar from './pages/call/callCalendar'
 import RequestMain from './pages/request/requestMain'
 import RequestPayment from './pages/request/requestPayment'
 import RequestConfirmation from './pages/request/confirmation'
-
+import Profile from './pages/profile/profile'
 import SignUp from './pages/auth/signUp'
 import SignIn from './pages/auth/signIn'
 import ForgotPassword from './pages/auth/forgotPassword'
+import NewPassword from './pages/auth/newPassword'
 import {
   BrowserRouter,
   Routes,
@@ -36,12 +39,15 @@ function App() {
           <Route path="/call/book" element={<CallBook />} />
           <Route path="/call/payment" element={<CallPayment />} />
           <Route path="/call/confirmation" element={<CallConfirmation />} />
+          <Route path="/call/calendar" element={<CallCalendar />} />
           <Route path="/request/main" element={<RequestMain />} />
           <Route path="/request/payment" element={<RequestPayment />} />
           <Route path="/request/confirmation" element={<RequestConfirmation />} />
+          <Route path="/profile" element={<Profile />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/signin" element={<SignIn />} />
           <Route path="/forgotpassword" element={<ForgotPassword />} />
+          <Route path="/newpassword" element={<NewPassword />} />
         </Routes>
       </BrowserRouter>
     </div>

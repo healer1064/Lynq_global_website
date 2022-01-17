@@ -1,3 +1,4 @@
+import React from 'react';
 import './signUpWithFacebook.css';
 
 function SignUpWithFacebook() {

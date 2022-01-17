@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from "react-router-dom";
 import './header.css';
 
@@ -17,7 +18,8 @@ function Header({isfollow, setShowFollow, setShowFollowing}) {
                 ) : (
                   <a className="link" href='#' onClick={handleFollow}>Follow</a>
                 )}
-                <Link className="link" to="/signin">Sign in</Link>
+                {/* <Link className="link" to="/signin">Sign in</Link> */}
+                <Link className="link" to="/profile">profile</Link>
             </div>
         </div>
     </div>

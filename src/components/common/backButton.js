@@ -11,7 +11,7 @@ const BackButton = props => {
 
     return (
         <div className="backButton" >
-            <img src="/assets/svg/back-arrow.svg"/>
+            <img alt="back" src="/assets/svg/back-arrow.svg"/>
             <p onClick={goBack} className="back-label">Back</p>
         </div>
     )

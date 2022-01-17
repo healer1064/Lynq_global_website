@@ -1,3 +1,4 @@
+import React from 'react';
 import { useNavigate  } from "react-router-dom";
 import {loadStripe} from '@stripe/stripe-js';
 import {
@@ -14,18 +15,18 @@ const CheckoutForm = () => {
   const stripe = useStripe();
   const elements = useElements();
 
-  const handleSubmit = async (event) => {
-    event.preventDefault();
+//   const handleSubmit = async (event) => {
+//     event.preventDefault();
 
-    if (elements == null) {
-      return;
-    }
+//     if (elements == null) {
+//       return;
+//     }
 
-    const {error, paymentMethod} = await stripe.createPaymentMethod({
-      type: 'card',
-      card: elements.getElement(CardElement),
-    });
-  };
+//     const {error, paymentMethod} = await stripe.createPaymentMethod({
+//       type: 'card',
+//       card: elements.getElement(CardElement),
+//     });
+//   };
   return (
     // <form onSubmit={handleSubmit}>
     <CardElement />
@@ -50,12 +51,19 @@ function RequestPayment() {
                     src="/assets/svg/avatar.svg"
                     className="Round_Avatar"
                 />
-                <h4 className="rp-label theme-black">Ben Burns</h4>
-                <p className="rp-header-description">
-                    <span>{description}</span>
-                    <span>&#8594;</span>
-                    <span>Payment</span>
-                </p>
+                <div className="desktop-version">
+                    <h4 className="rp-label theme-black">Ben Burns</h4>
+                    <p className="rp-header-description">
+                        <span>{description}</span>
+                        <span>&#8594;</span>
+                        <span>Payment</span>
+                    </p>
+                </div>
+                <div className="mobile-version">
+                    <p>PERSONAL VIDEO REQUEST</p>
+                    <h4 className="rp-label theme-black">Ben Burns</h4>
+                </div>
+                
             </div>
             <div className="rp-form-container theme-dark-gray-background">
                 <div className="rp-form">
@@ -99,7 +107,7 @@ function RequestPayment() {
                     <div className="rp-agreement theme-black-information">
                         By pledging, you agree with Lynq
                         <a href='#' className="theme-black-link"> Terms of Use</a>, 
-                        <a href='#' className="theme-black-link">Privacy Policy</a> and 
+                        <a href='#' className="theme-black-link">Privacy Policy</a> and &nbsp;
                         <a href='#' className="theme-black-link">Cookie Policy</a>
                     </div>
                 </div>

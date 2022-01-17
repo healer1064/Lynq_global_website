@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from "react-router-dom";
 import AuthHeader from '../../components/auth/authHeader.js';
 import SignInFooter from '../../components/auth/signInFooter.js';

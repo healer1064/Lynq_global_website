@@ -1,0 +1,75 @@
+.calendar-form {
+    width: 100%;
+}
+.calendar-form .calendar-month {
+    display: flex;
+    justify-content: space-between;
+}
+.calendar-month .month-description {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.calendar-month .show-calendar {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #4CC9F0;
+    cursor: pointer;
+}
+.calendar-form .calendar-date {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    height: 50px;
+}
+.calendar-form .date-button {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    background: #1E292D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+.calendar-form .date-button:active {
+    opacity: 0.7;
+}
+.calendar-form .date-each {
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    background: #1E292D;
+    padding-top: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+.calendar-form .date-each span {
+    color: #4CC9F0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.calendar-form .date-each span:first-child {
+    font-size: 10px;
+    line-height: 10px;
+    padding-bottom: 2px;
+}
+.calendar-form .date-each span:nth-child(2) {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+}
+.calendar-form .date-each.date-focused {
+    background: #4CC9F0;
+}
+.calendar-form .date-each.date-focused span {
+    color: #000000;
+}

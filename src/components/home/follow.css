@@ -34,24 +34,24 @@
     margin-top: 53.5px;
 }
 .follow-dialog .dialog-title {
-    margin: 7.5px 0 0;
+    color: #FFFFFF;
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
+    margin: 7.5px 0 0;
     text-align: center;
-    color: #FFFFFF;
 }
 .follow-dialog .dialog-description {
-    margin: 4px 0 35px;
+    color: #999CA0;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
+    margin: 4px 0 35px;
     text-align: center;
-    color: #999CA0;
 }
 .follow-dialog .dialog-form {
     margin: 0 auto;
@@ -59,12 +59,12 @@
     width: 305px;
 }
 .follow-dialog .dialog-form label {
+    color: #BEC2C9;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
-    color: #BEC2C9;
     margin-bottom: 4px;
 }
 .follow-dialog .dialog-form input {
@@ -84,14 +84,15 @@
     width: 100%;
 }
 .follow-dialog .follow-btn {
-    margin-top: 8px;
     background: #4CC9F0;
+    border: none;
     border-radius: 100px;
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 18px;
+    margin-top: 8px;
     text-align: center;
 
     color: #000000;

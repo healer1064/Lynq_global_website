@@ -6,6 +6,9 @@
     text-align: left;
     width: 327px;
 }
+.book-type.book-type-focused {
+    opacity: 0.5;
+}
 
 .book-type .type-title {
     font-weight: bold;
